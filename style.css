@@ -30,12 +30,20 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+  color: darkred;
+}
+
 a:hover {
 	color: #4d85ff;
 }
 
 a.slides {
     color: green;
+}
+
+a.slides:visited {
+  color: olive;
 }
 
 a.slides:hover {
